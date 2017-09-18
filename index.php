@@ -1,3 +1,3 @@
 <?php
-echo "Set up!";
+echo "Docker set up!";
 phpinfo();

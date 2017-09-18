@@ -9,7 +9,7 @@ RUN ln -sf /bin/true /sbin/initctl
 ENV DEBIAN_FRONTEND noninteractive
 
 # doc root path
-ENV NGINX_ROOT="/usr/share/nginx/html"
+ENV NGINX_ROOT="/home/app/web"
 # display PHP errors
 ENV ERRORS=0
 # max size of uploads (megabytes)
